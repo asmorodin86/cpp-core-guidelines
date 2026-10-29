@@ -1,0 +1,14 @@
+interface:
+  display_name: C++ Core Guidelines
+  short_description: Design, build, and review C++98 through C++26
+  default_prompt: Use $cpp-core-guidelines to design, implement, debug, or review
+    C++ against the project's target standard and the C++ Core Guidelines.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
